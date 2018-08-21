@@ -1,0 +1,75 @@
+
+body {
+    background-color: #ffffff;
+    background-image:  url(BKGimages/Im_bkg_big.005.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center center;              /* optional, center the image */ */
+}
+
+
+ div.scrollmenu {
+    background-color: #000000;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10pt;
+    opacity: 0.6;
+}
+
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Cosmic Love;
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 5pt;
+    
+}
+
+div.scrollmenu a:hover {
+    background-color: #ffffff;
+    color: #8c8cd9;
+}
+
+h1 {
+    text-align: center;
+    color: #330066
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+/*
+.cd-stretchy-nav {
+  position: fixed;
+  z-index: 2;
+  top: 40px;
+  right: 5%;
+}
+.cd-stretchy-nav .stretchy-nav-bg {
+  /* this is the stretching navigation background */
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #9acd91;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  transition: height 0.2s, box-shadow 0.2s;
+}
+.cd-stretchy-nav.nav-is-visible .stretchy-nav-bg {
+  height: 100%;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+*/
